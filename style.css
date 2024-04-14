@@ -57,12 +57,23 @@ p {
     font-size: 1.4em;
     font-weight: 300;
     padding: 20px;
+    text-align: justify;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1500px;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
 
 main > .conteudo {
     display: flex;
     align-items: center;
-    margin: 35px 250px;
+    padding: 15px 100px;
+
 }
 
 footer {
