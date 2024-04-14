@@ -1,15 +1,20 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
 :root {
     --cor0: #00091F;
     --cor1: #112352;
     --cor2: #364D85;
     --cor3: #7084B8;
     --cor4: #BECBEB;
+
+    --fontepadrao: 'Ruda', sans-serif;
 }
 
 * {
     margin: 0px;
+    font-family: var(--fontepadrao);
 }
 
 header {
@@ -17,3 +22,68 @@ header {
     padding: 40px 30px;
 }
 
+header > nav {
+    text-align: center;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header > nav > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+.nomeaparelho {
+    color: var(--cor0);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    color: var(--cor1);
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 20px;
+}
+
+main > .conteudo {
+    display: flex;
+    align-items: center;
+    margin: 35px 250px;
+}
+
+footer {
+    background-color: var(--cor0);
+    padding: 30px 15px;
+}
+
+footer > nav {
+    text-align: center;
+}
+
+footer > nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+footer > nav > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
