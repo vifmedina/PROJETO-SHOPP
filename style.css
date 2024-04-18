@@ -3,11 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
 
 :root {
-    --cor0: #00091F;
-    --cor1: #112352;
-    --cor2: #364D85;
-    --cor3: #7084B8;
-    --cor4: #BECBEB;
+    --cor0: #033043;
+    --cor1: #0a7273;
+    --cor2: #fda521;
+    --cor3: #e9e3d5;
 
     --fontepadrao: 'Ruda', sans-serif;
 }
@@ -18,18 +17,18 @@
 }
 
 header {
-    background-color: var(--cor1);
+    background-color: var(--cor0);
     padding: 40px 30px;
 }
 
 header > nav {
-    text-align: center;
+    text-align: right;
 }
 
 header > nav > a {
     text-decoration: none;
-    color: white;
-    padding: 10px;
+    color: var(--cor3);
+    padding: 10px 20px;
     border-radius: 5px;
     margin: 10px;
     font-weight: bold;
@@ -38,11 +37,26 @@ header > nav > a {
 
 header > nav > a:hover {
     font-size: 1.1em;
-    color: var(--cor3);
+    color: var(--cor2);
+    text-decoration: underline;
 }
 
 body {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--cor3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor2);
+    border-radius: 10px;
+    border: 3px solid var(--cor3);
 }
 
 .nomeaparelho {
@@ -95,14 +109,14 @@ footer > nav {
 
 footer > nav > a {
     text-decoration: none;
-    color: white;
+    color: var(--cor3);
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 footer > nav > a:hover {
-    background-color: var(--cor4);
-    color: var(--cor1);
+    color: var(--cor2);
+    text-decoration: underline;
 }
