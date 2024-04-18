@@ -18,7 +18,7 @@
 }
 
 header {
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     padding: 40px 30px;
 }
 
@@ -29,7 +29,6 @@ header > nav {
 header > nav > a {
     text-decoration: none;
     color: white;
-    background-color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -38,8 +37,8 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    background-color: var(--cor4);
-    color: var(--cor1);
+    font-size: 1.1em;
+    color: var(--cor3);
 }
 
 body {
@@ -65,15 +64,24 @@ main {
     background-color: white;
     min-width: 300px;
     max-width: 1500px;
-    border-radius: 15px;
+    border-radius: 0px 0px 15px 15px;
     margin-bottom: 30px;
+}
+
+#produtos {
+    padding-top: 50px;
 }
 
 main > .conteudo {
     display: flex;
     align-items: center;
-    padding: 15px 100px;
+    padding: 25px 150px;
 
+}
+
+main > .conteudo > p {
+    max-width: 800px;
+    margin: auto;
 }
 
 footer {
