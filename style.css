@@ -82,7 +82,8 @@ main {
     min-width: 300px;
     max-width: 1500px;
     border-radius: 0px 0px 15px 15px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 #produtos {
