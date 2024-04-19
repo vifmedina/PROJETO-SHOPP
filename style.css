@@ -59,7 +59,7 @@ header > nav > a:hover {
 
 @media (max-width: 665px) {
     header > nav > a {
-        padding: 10px 10px;
+        padding: 5px;
     }
 }
 
