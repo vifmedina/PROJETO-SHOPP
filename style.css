@@ -91,7 +91,19 @@ main {
 }
 
 main > .conteudo > img {
-    margin-right: 100px;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    main > .conteudo {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    main > .conteudo > img {
+        padding-top: 30px;
+    }
 }
 
 main > .conteudo {
