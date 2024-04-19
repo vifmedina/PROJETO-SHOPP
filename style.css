@@ -28,7 +28,7 @@ header {
     list-style-type: none;
 }
 
-header > nav > a {
+header > nav > a, label {
     text-decoration: none;
     color: var(--cor3);
     padding: 15px 20px;
@@ -58,9 +58,18 @@ header > nav > a:hover {
 }
 
 @media (max-width: 665px) {
-    header > nav > a {
+    header > nav > a, ul {
         padding: 5px;
     }
+}
+
+select{
+    background-color: var(--cor0);
+    color: var(--cor3);
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Ruda', sans-serif;
+    border: 0px solid ;
 }
 
 body {
