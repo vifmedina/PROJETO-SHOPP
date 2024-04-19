@@ -66,7 +66,6 @@ body::-webkit-scrollbar-thumb {
     color: var(--cor0);
     font-size: 2em;
     font-weight: bold;
-    text-align: left;
 }
 
 p {
@@ -74,7 +73,7 @@ p {
     font-size: 1.4em;
     font-weight: 300;
     /*padding: 20px;*/
-    text-align: left;
+    text-align: justify;
 }
 
 main {
@@ -91,11 +90,14 @@ main {
     padding-top: 50px;
 }
 
+main > .conteudo > img {
+    margin-right: 100px;
+}
+
 main > .conteudo {
     display: flex;
     align-items: center;
     padding: 25px 30px;
-
 }
 
 main > .conteudo > p {
