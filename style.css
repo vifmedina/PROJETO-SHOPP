@@ -99,7 +99,7 @@ main {
     margin: auto;
     background-color: white;
     min-width: 300px;
-    max-width: 1500px;
+    max-width: 1300px;
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 60px;
     padding-bottom: 40px;
@@ -132,7 +132,7 @@ main > .conteudo {
 }
 
 main > .conteudo > p {
-    max-width: 800px;
+    max-width: 950px;
     margin: auto;
 }
 
