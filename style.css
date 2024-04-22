@@ -112,6 +112,10 @@ main {
     padding-top: 50px;
 }
 
+main > .conteudo {
+    margin-top: 100px;
+}
+
 main > .conteudo > img {
     margin: auto;
 }
@@ -125,6 +129,12 @@ main > .conteudo > img {
 @media (max-width: 1000px) {
     main > .conteudo > img {
         padding-top: 30px;
+    }
+}
+
+@media (max-width: 675px) {
+    header > a {
+        padding: 10px 10px;
     }
 }
 
