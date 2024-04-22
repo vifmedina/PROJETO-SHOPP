@@ -15,8 +15,8 @@
         </div>
         <nav>
             <a href="#topo">HOME</a>
-                <select name="" id="aparelhos" onchange="location.href=this.value">
-                    <option value="">APARELHOS</option>
+                <select name="" id="meuSelect" onchange="redirecionar(); resetSelect()">
+                    <option value="principal">APARELHOS</option>
                     <option value="#hifu">Ultramed HIFU</option>
                     <option value="#hakon">Hakon</option>
                     <option value="#pisom">Pisom</option>
@@ -88,6 +88,7 @@
         </nav>
     </footer>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
